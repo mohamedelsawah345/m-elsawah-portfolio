@@ -84,7 +84,7 @@ export const casesEn: CaseCopy[] = [
     cardTitle: 'A clinical workspace that collects history before the visit.',
     cardDescription: 'An EMR with a pre-visit interview. The patient finishes her history on her phone. The doctor opens a structured chart that is already ready.',
     result: 'End-to-end clinical ownership',
-    title: 'JISR AI.',
+    title: 'Jisrmed AI.',
     titleEm: 'A clinical workspace for outpatient clinics.',
     lead: 'The patient completes her history on her phone. The doctor enters with a structured chart already prepared. Obstetrics and gynecology was the first protocol. A new specialty means new questions and a new report, not a new system.',
     facts: [
