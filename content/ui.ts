@@ -44,7 +44,17 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: 'Case study',
     back: 'Selected work',
     groups: { kicker: 'All work', operations: 'Company operations', sales: 'Sales and conversations', commerce: 'Commerce and ads', products: 'Public products' },
-    view: { label: 'Show this case as', business: 'Business', technical: 'Technical', both: 'Both' },
+    view: {
+      label: 'How to read this',
+      business: 'Business view',
+      technical: 'Technical view',
+      both: 'Full view',
+      note: {
+        business: 'For a client or an owner: the problem and what changed in the work, without the build.',
+        technical: 'For a technical reviewer: the path, the architecture, and the limits.',
+        both: 'Business and technical, on one page.',
+      },
+    },
   },
   ar: {
     metaTitle: 'محمد السواح — مهندس برمجيات أول ومهندس نظم',
@@ -88,7 +98,17 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: 'دراسة حالة',
     back: 'أعمال مختارة',
     groups: { kicker: 'كل الأعمال', operations: 'تشغيل الشركات', sales: 'مبيعات ومحادثات', commerce: 'تجارة وإعلانات', products: 'منتجات للجمهور' },
-    view: { label: 'طريقة العرض', business: 'بزنس', technical: 'تكنيكال', both: 'الاتنين' },
+    view: {
+      label: 'طريقة العرض',
+      business: 'عرض بيزنس',
+      technical: 'عرض تكنيكال',
+      both: 'العرض الكامل',
+      note: {
+        business: 'للعميل وصاحب المشروع: المشكلة، وإيه اللي اتغير في الشغل، من غير تفاصيل البناء.',
+        technical: 'لصاحب القرار التقني: المسار، والمعمارية، وحدود النظام.',
+        both: 'البزنس والتكنيكال في صفحة واحدة.',
+      },
+    },
   },
   es: {
     metaTitle: 'Mohamed Elsawah — Ingeniero de software y arquitecto de sistemas',
@@ -132,7 +152,17 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: 'Caso',
     back: 'Trabajo seleccionado',
     groups: { kicker: 'Todo el trabajo', operations: 'Operación de empresas', sales: 'Ventas y conversaciones', commerce: 'Comercio y anuncios', products: 'Productos públicos' },
-    view: { label: 'Ver este caso como', business: 'Negocio', technical: 'Técnico', both: 'Ambos' },
+    view: {
+      label: 'Forma de verlo',
+      business: 'Vista de negocio',
+      technical: 'Vista técnica',
+      both: 'Vista completa',
+      note: {
+        business: 'Para un cliente o dueño: el problema y lo que cambió en el trabajo, sin el detalle de construcción.',
+        technical: 'Para quien revisa la técnica: el camino, la arquitectura y los límites.',
+        both: 'Negocio y técnica en una sola página.',
+      },
+    },
   },
   de: {
     metaTitle: 'Mohamed Elsawah — Senior Software Engineer und Systemarchitekt',
@@ -176,7 +206,17 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: 'Fallstudie',
     back: 'Ausgewählte Arbeiten',
     groups: { kicker: 'Alle Arbeiten', operations: 'Unternehmensbetrieb', sales: 'Vertrieb und Gespräche', commerce: 'Handel und Anzeigen', products: 'Öffentliche Produkte' },
-    view: { label: 'Darstellung', business: 'Geschäft', technical: 'Technik', both: 'Beides' },
+    view: {
+      label: 'Darstellung',
+      business: 'Geschäftliche Ansicht',
+      technical: 'Technische Ansicht',
+      both: 'Vollständige Ansicht',
+      note: {
+        business: 'Für Kunden und Inhaber: das Problem und was sich in der Arbeit geändert hat, ohne Baudetails.',
+        technical: 'Für die technische Prüfung: Ablauf, Architektur und Grenzen.',
+        both: 'Geschäft und Technik auf einer Seite.',
+      },
+    },
   },
   it: {
     metaTitle: 'Mohamed Elsawah — Ingegnere software e architetto di sistemi',
@@ -220,7 +260,17 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: 'Caso',
     back: 'Lavori selezionati',
     groups: { kicker: 'Tutti i lavori', operations: 'Operatività aziendale', sales: 'Vendite e conversazioni', commerce: 'Commercio e annunci', products: 'Prodotti pubblici' },
-    view: { label: 'Mostra questo caso come', business: 'Business', technical: 'Tecnico', both: 'Entrambi' },
+    view: {
+      label: 'Come leggerlo',
+      business: 'Vista business',
+      technical: 'Vista tecnica',
+      both: 'Vista completa',
+      note: {
+        business: 'Per un cliente o un titolare: il problema e cosa è cambiato nel lavoro, senza il dettaglio di costruzione.',
+        technical: 'Per chi valuta la tecnica: il percorso, l’architettura e i limiti.',
+        both: 'Business e tecnica in una pagina.',
+      },
+    },
   },
   pt: {
     metaTitle: 'Mohamed Elsawah — Engenheiro de software e arquiteto de sistemas',
@@ -264,7 +314,17 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: 'Caso',
     back: 'Trabalhos selecionados',
     groups: { kicker: 'Todo o trabalho', operations: 'Operação das empresas', sales: 'Vendas e conversas', commerce: 'Comércio e anúncios', products: 'Produtos públicos' },
-    view: { label: 'Ver este caso como', business: 'Negócio', technical: 'Técnico', both: 'Os dois' },
+    view: {
+      label: 'Como ver',
+      business: 'Visão de negócio',
+      technical: 'Visão técnica',
+      both: 'Visão completa',
+      note: {
+        business: 'Para um cliente ou dono: o problema e o que mudou no trabalho, sem o detalhe da construção.',
+        technical: 'Para quem avalia a técnica: o caminho, a arquitetura e os limites.',
+        both: 'Negócio e técnica na mesma página.',
+      },
+    },
   },
   zh: {
     metaTitle: 'Mohamed Elsawah — 高级软件工程师与系统架构师',
@@ -308,6 +368,16 @@ export const ui: Record<Locale, UiCopy> = {
     caseKicker: '案例',
     back: '精选作品',
     groups: { kicker: '全部作品', operations: '企业运营', sales: '销售与对话', commerce: '电商与广告', products: '面向公众的产品' },
-    view: { label: '展示方式', business: '业务', technical: '技术', both: '两者' },
+    view: {
+      label: '阅读方式',
+      business: '业务展示',
+      technical: '技术展示',
+      both: '完整展示',
+      note: {
+        business: '给客户和负责人：问题，以及工作里改变了什么，不展开建造细节。',
+        technical: '给技术评审：路径、架构和边界。',
+        both: '业务和技术在同一页。',
+      },
+    },
   },
 }

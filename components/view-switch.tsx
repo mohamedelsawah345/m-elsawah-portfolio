@@ -14,7 +14,7 @@ export function ViewSwitch({
 }: {
   view: PortfolioView
   label: string
-  labels: Record<PortfolioView, string>
+  labels: { label: string; business: string; technical: string; both: string; note: Record<PortfolioView, string> }
 }) {
   const router = useRouter()
 
@@ -33,18 +33,22 @@ export function ViewSwitch({
   }
 
   return (
-    <div className="view-switch" role="group" aria-label={label}>
-      {options.map((option) => (
-        <button
-          key={option}
-          type="button"
-          aria-pressed={view === option}
-          className={view === option ? 'is-active' : undefined}
-          onClick={() => choose(option)}
-        >
-          {labels[option]}
-        </button>
-      ))}
+    <div className="view-switch">
+      <p className="view-switch-label">{label}</p>
+      <div role="group" aria-label={label}>
+        {options.map((option) => (
+          <button
+            key={option}
+            type="button"
+            aria-pressed={view === option}
+            className={view === option ? 'is-active' : undefined}
+            onClick={() => choose(option)}
+          >
+            {labels[option]}
+          </button>
+        ))}
+      </div>
+      <p className="view-switch-note">{labels.note[view]}</p>
     </div>
   )
 }

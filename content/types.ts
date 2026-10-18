@@ -46,7 +46,7 @@ export type UiCopy = {
   caseKicker: string
   back: string
   groups: { kicker: string; operations: string; sales: string; commerce: string; products: string }
-  view: { label: string; business: string; technical: string; both: string }
+  view: { label: string; business: string; technical: string; both: string; note: { business: string; technical: string; both: string } }
 }
 
 export type Dictionary = {

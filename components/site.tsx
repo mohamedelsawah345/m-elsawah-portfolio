@@ -230,9 +230,9 @@ export function CaseView({ locale, ui, study, number, view }: { locale: Locale; 
         <p className="section-kicker">{ui.caseKicker} {number}</p>
         <h1>{study.title} <em>{study.titleEm}</em></h1>
         <ViewSwitch view={view} label={ui.view.label} labels={ui.view} />
-        <p className="case-lead">{study.lead}</p>
+        <p className="case-lead">{view === 'technical' ? study.facts.at(-1)?.value ?? study.lead : study.lead}</p>
         <dl className="case-facts">
-          {study.facts.map((fact) => (
+          {(view === 'both' ? study.facts : study.facts.slice(0, -1)).map((fact) => (
             <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>
           ))}
         </dl>
