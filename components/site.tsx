@@ -25,6 +25,9 @@ export function SiteHeader({ locale, ui, homeHref }: { locale: Locale; ui: UiCop
       </nav>
       <div className="header-actions">
         <LanguageSelect locale={locale} label={ui.language} />
+        <a className="cv-link" href="/Mohamed_Elsawah_CV.pdf" target="_blank" rel="noreferrer">
+          {ui.nav.resume}
+        </a>
         <a className="resume-link" href={`${homeHref}#all-work`}>
           {ui.nav.allWork} <ArrowIcon />
         </a>
