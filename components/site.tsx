@@ -63,10 +63,10 @@ export function HomePage({ locale, ui, cases, view }: { locale: Locale; ui: UiCo
       </section>
       <section className="proof-strip" aria-label={ui.proof.label}>
         <div className="section-shell proof-grid">
-          <div><strong>10+</strong><span>{ui.proof.years}</span></div>
-          <div><strong>14</strong><span>{ui.proof.domains}</span></div>
+          <div><strong>5+</strong><span>{ui.proof.years}</span></div>
+          <div><strong>{groups.length}</strong><span>{ui.proof.domains}</span></div>
           <div><strong>360°</strong><span>{ui.proof.ownership}</span></div>
-          <div><strong>EU</strong><span>{ui.proof.region}</span></div>
+          <div><strong>{ui.proof.reach}</strong><span>{ui.proof.region}</span></div>
         </div>
       </section>
       <section id="work" className="work section-shell">

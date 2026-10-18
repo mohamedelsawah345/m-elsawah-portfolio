@@ -16,7 +16,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: 'Senior Software Engineer & Systems Architect. I turn ambitious business requirements into resilient, measurable software products.',
       cta: 'Explore selected work',
     },
-    proof: { label: 'Areas of expertise', years: 'Years building software', domains: 'Business domains', ownership: 'Product ownership', region: 'Enterprise perspective' },
+    proof: { label: 'Areas of expertise', years: 'Years building software', domains: 'Business domains', ownership: 'Product ownership', reach: 'Global', region: 'Across markets' },
     work: {
       kicker: 'Selected case studies',
       before: 'Systems built around',
@@ -60,7 +60,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: 'مهندس برمجيات أول ومهندس نظم. أحوّل متطلبات العمل إلى منتجات يمكن للفريق الاعتماد عليها.',
       cta: 'استعرض الأعمال',
     },
-    proof: { label: 'مجالات العمل', years: 'سنوات في بناء البرمجيات', domains: 'مجالات أعمال', ownership: 'ملكية المنتج', region: 'منظور مؤسسي' },
+    proof: { label: 'مجالات العمل', years: 'سنوات في بناء البرمجيات', domains: 'مجالات أعمال', ownership: 'ملكية المنتج', reach: 'عالمي', region: 'في أي سوق' },
     work: {
       kicker: 'دراسات حالة مختارة',
       before: 'أنظمة بُنيت حول',
@@ -104,7 +104,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: 'Ingeniero de software sénior y arquitecto de sistemas. Convierto requisitos de negocio en productos que un equipo puede sostener.',
       cta: 'Ver el trabajo',
     },
-    proof: { label: 'Áreas de trabajo', years: 'Años construyendo software', domains: 'Sectores', ownership: 'Propiedad del producto', region: 'Mirada empresarial' },
+    proof: { label: 'Áreas de trabajo', years: 'Años construyendo software', domains: 'Sectores', ownership: 'Propiedad del producto', reach: 'Global', region: 'En cualquier mercado' },
     work: {
       kicker: 'Casos seleccionados',
       before: 'Sistemas construidos alrededor de',
@@ -148,7 +148,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: 'Senior Software Engineer und Systemarchitekt. Ich mache aus fachlichen Anforderungen Produkte, auf die ein Team sich verlassen kann.',
       cta: 'Arbeiten ansehen',
     },
-    proof: { label: 'Arbeitsfelder', years: 'Jahre Softwarebau', domains: 'Geschäftsfelder', ownership: 'Produktverantwortung', region: 'Unternehmensblick' },
+    proof: { label: 'Arbeitsfelder', years: 'Jahre Softwarebau', domains: 'Geschäftsfelder', ownership: 'Produktverantwortung', reach: 'Global', region: 'In jedem Markt' },
     work: {
       kicker: 'Ausgewählte Fallstudien',
       before: 'Systeme gebaut für',
@@ -192,7 +192,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: 'Senior software engineer e architetto di sistemi. Trasformo requisiti di business in prodotti su cui un team può contare.',
       cta: 'Vedi i lavori',
     },
-    proof: { label: 'Aree di lavoro', years: 'Anni a costruire software', domains: 'Settori', ownership: 'Ownership di prodotto', region: 'Sguardo aziendale' },
+    proof: { label: 'Aree di lavoro', years: 'Anni a costruire software', domains: 'Settori', ownership: 'Ownership di prodotto', reach: 'Globale', region: 'In ogni mercato' },
     work: {
       kicker: 'Casi selezionati',
       before: 'Sistemi costruiti intorno ai',
@@ -236,7 +236,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: 'Engenheiro de software sênior e arquiteto de sistemas. Transformo requisitos de negócio em produtos nos quais uma equipe pode confiar.',
       cta: 'Ver o trabalho',
     },
-    proof: { label: 'Áreas de trabalho', years: 'Anos construindo software', domains: 'Setores', ownership: 'Responsabilidade pelo produto', region: 'Olhar empresarial' },
+    proof: { label: 'Áreas de trabalho', years: 'Anos construindo software', domains: 'Setores', ownership: 'Responsabilidade pelo produto', reach: 'Global', region: 'Em qualquer mercado' },
     work: {
       kicker: 'Casos selecionados',
       before: 'Sistemas construídos em torno de',
@@ -280,7 +280,7 @@ export const ui: Record<Locale, UiCopy> = {
       copy: '高级软件工程师与系统架构师。我把业务要求做成团队能够依赖的产品。',
       cta: '查看作品',
     },
-    proof: { label: '工作范围', years: '年软件构建经验', domains: '个业务领域', ownership: '产品负责', region: '企业视角' },
+    proof: { label: '工作范围', years: '年软件构建经验', domains: '个业务领域', ownership: '产品负责', reach: '全球', region: '任何市场' },
     work: {
       kicker: '精选案例',
       before: '围绕业务结果',

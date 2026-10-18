@@ -39,7 +39,7 @@ export type UiCopy = {
   language: string
   nav: { work: string; about: string; contact: string; allWork: string; resume: string; menu: string }
   hero: { status: string; location: string; before: string; em: string; after: string; copy: string; cta: string }
-  proof: { label: string; years: string; domains: string; ownership: string; region: string }
+  proof: { label: string; years: string; domains: string; ownership: string; reach: string; region: string }
   work: { kicker: string; before: string; em: string; intro: string; read: string; system: string }
   about: { kicker: string; before: string; em: string; body: string; more: string }
   footer: { kicker: string; before: string; em: string; cta: string; rights: string; role: string; linkedin: string }
