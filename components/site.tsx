@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowUpRight, ExternalLink, Mail, Menu, MoveUpRight } from 'lucide-react'
+import { ArrowLeft, ArrowUpRight, ExternalLink, Menu, MoveUpRight, Phone } from 'lucide-react'
 import { LanguageSelect } from '@/components/language-select'
 import { ViewSwitch } from '@/components/view-switch'
 import { visibleSections } from '@/content/audience'
@@ -149,13 +149,13 @@ export function HomePage({ locale, ui, cases, view }: { locale: Locale; ui: UiCo
             <em>{ui.footer.em}</em>
           </h2>
         </div>
-        <a className="contact-button" href="mailto:hello@alexmorgan.dev">
-          {ui.footer.cta} <Mail aria-hidden="true" className="h-4 w-4" />
+        <a className="contact-button" href="https://wa.me/201113953849" target="_blank" rel="noreferrer">
+          {ui.footer.cta} <Phone aria-hidden="true" className="h-4 w-4" />
         </a>
         <div className="footer-bottom">
           <span>{ui.footer.rights}</span>
           <span>{ui.footer.role}</span>
-          <a href={`${home}#contact`}>{ui.footer.linkedin} <ExternalLink aria-hidden="true" className="h-3.5 w-3.5" /></a>
+          <a href="https://www.linkedin.com/in/mohamed-elsawah-029782282/" target="_blank" rel="noreferrer">{ui.footer.linkedin} <ExternalLink aria-hidden="true" className="h-3.5 w-3.5" /></a>
         </div>
       </footer>
     </main>
