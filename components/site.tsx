@@ -15,7 +15,7 @@ export function SiteHeader({ locale, ui, homeHref }: { locale: Locale; ui: UiCop
   return (
     <header className="site-header">
       <a className="brand" href={homeHref} aria-label={ui.metaTitle}>
-        <span className="brand-mark">ME</span>
+        <img className="brand-mark" src="/portrait.jpg" alt="" />
         <span className="brand-name">Mohamed Elsawah</span>
       </a>
       <nav className="desktop-nav" aria-label={ui.nav.work}>

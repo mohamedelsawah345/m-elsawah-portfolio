@@ -10,15 +10,23 @@ const notoArabic = Noto_Sans_Arabic({ subsets: ['arabic'], variable: '--font-ara
 const notoSc = Noto_Sans_SC({ subsets: ['latin'], weight: ['400', '500', '700'], variable: '--font-sc', display: 'swap', preload: false })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mohamedelsawah.kemextech.org'),
   title: 'Mohamed Elsawah — Senior Software Engineer & Systems Architect',
   description: 'Enterprise systems architecture and software engineering portfolio for Mohamed Elsawah.',
-  generator: 'v0.app',
+  openGraph: {
+    title: 'Mohamed Elsawah — Senior Software Engineer & Systems Architect',
+    description: 'Enterprise systems architecture and software engineering portfolio.',
+    url: 'https://mohamedelsawah.kemextech.org',
+    siteName: 'Mohamed Elsawah',
+    type: 'website',
+    images: [{ url: '/portrait.jpg', width: 1024, height: 1024, alt: 'Mohamed Elsawah' }],
+  },
+  twitter: {
+    card: 'summary',
+    images: ['/portrait.jpg'],
+  },
   icons: {
-    icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
+    icon: [{ url: '/icon-32.png', sizes: '32x32', type: 'image/png' }],
     apple: '/apple-icon.png',
   },
 }
